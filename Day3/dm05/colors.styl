@@ -1,0 +1,28 @@
+color_primary = black
+color_secondary = yellow
+
+h1
+    color color_primary
+
+h2
+    color color_secondary
+
+h3
+    color mix(color_primary, color_secondary)
+    color blend(alpha(color_primary,0.1), color_secondary)
+
+h4
+    color green(color_primary, 80)
+
+h5
+    color lightness(color_secondary, 10)
+
+h6
+    color saturate(green, 100%)
+    background-color green
+
+average(q,w)
+    (q+w)/2
+
+.border
+    border-width average(10px, 20px)
