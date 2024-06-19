@@ -1,0 +1,21 @@
+body {
+    background-color: #679;
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    padding: 40px 0%;
+    box-sizing: border-box;
+    margin: 200px auto;
+}
+
+.sun {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    background-color: #E00;
+    border-radius: 50%;
+}
+

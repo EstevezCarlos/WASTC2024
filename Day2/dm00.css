@@ -1,0 +1,27 @@
+.red {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: #f90 dashed 5px;
+  height: 200px;
+  width: 300px;
+  margin: 200px auto;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.item {
+  width: 20px;
+  height: 100px;
+  background-color: #f90;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+  font-family: "Lato", sans-serif;
+}

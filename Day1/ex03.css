@@ -1,0 +1,28 @@
+#flag {
+    border: solid;
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+
+#title {
+    color: white;
+    height: 200px;
+}
+
+.stripe {
+    height: 400px;
+    flex-grow: 1;
+}
+
+.blue {
+    background-color: #0055A4;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.red {
+    background-color: #EF4135;
+}

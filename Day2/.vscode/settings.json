@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": [],
+    "compile-hero.generate-minified-html": true,
+    "compile-hero.generate-minified-html-only": true,
+    "compile-hero.pug-output-directory": "./my_generated_html"
+}

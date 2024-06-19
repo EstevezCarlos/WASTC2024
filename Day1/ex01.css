@@ -1,0 +1,26 @@
+.card {
+    background-color: rgba(0, 255, 128, 0.5);
+    border: #ff660077 solid;
+    border-top-width: 12px;
+    border-bottom-width: 32px;
+    margin: 6em auto;
+    padding: 10px 50px;
+    width: 40%;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    color: hsl(hue, saturation, lightness)
+}
+
+p {
+    color: brown;
+}
+body {
+    font-size: 25px;
+}
+
+:root {
+    font-size: 26px;
+}

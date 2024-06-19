@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dm03.css">
+  </head>
+  <body>
+    <video src="media/movie.mp4" controls></video>
+    <hr />
+    <audio src="media/movie.mp4" controls></audio>
+    <hr />
+    <svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
+      <circle
+        r="45"
+        cx="50"
+        cy="50"
+        stroke="green"
+        stroke-width="3"
+        fill="red"
+      />
+      Red circle with green border
+    </svg>
+    <h2>Different raster graphic formats</h2>
+    <table>
+      <tr>
+        <th>Format</th>
+        <th>Upsides</th>
+        <th>Downsides</th>
+      </tr>
+      <tr>
+        <td>JPG/JPEG</td>
+        <td>
+          - Good for photos
+          <br />
+          - Very small size due to lossy compression
+        </td>
+        <td>
+          - Data/quality loss
+          <br />
+          - No transparency (optional)
+        </td>
+      </tr>
+      <tr>
+        <td>PNG</td>
+        <td>
+          - Lossles compession
+          <br />
+          - Transparency (optional)
+        </td>
+        <td>- Larger files due to lossless compression</td>
+      </tr>
+      <tr>
+        <td>WEBP</td>
+        <td>
+          - Does support both types of compression<br>- Smalest files for given
+          quality <br>- Does support transparency <br>- Support animation
+        </td>
+        <td>- Not every graphic program support it</td>
+      </tr>
+    </table>
+    <h2>Example background image</h2>
+    <div class="photo">    </div>
+  </body>
+</html>
