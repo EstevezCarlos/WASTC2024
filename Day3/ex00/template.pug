@@ -1,0 +1,26 @@
+block variables
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Card
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css")
+    body
+        article
+
+            h1 Full name: #{name} #{surname} 
+            h2 Phone number: #{phone}
+            h2 Email: #{email}
+            h2 Age: #{age}
+
+            h2 Status: 
+                if age < 18
+                    | minor
+                else
+                    | adult
+
+            h2 Interests:
+                each val, key in interests
+                    |  #{val}

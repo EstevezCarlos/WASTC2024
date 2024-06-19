@@ -1,0 +1,21 @@
+-x = 3
+-my_arr = [3, "qwe", 5]
+
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body
+        if x > 0
+            p #{x} is positive number
+        else if x < 0 
+            p #{x} is negative number
+        else
+            p #{x} is zero
+
+        ol
+            each i in my_arr
+                li element #{i}
