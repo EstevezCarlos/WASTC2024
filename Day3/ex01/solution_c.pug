@@ -1,0 +1,12 @@
+mixin nav
+    nav&attributes(attributes)
+        ul
+            block
+
+mixin ni(url, text)
+    a(href=url)
+        li=text
+
++nav.bg-red
+    +ni('https:google.com','Goolge')
+    +ni('https:apple.com','Pear')

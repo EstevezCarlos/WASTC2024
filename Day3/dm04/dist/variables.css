@@ -1,0 +1,10 @@
+h1 {
+  color: #f90;
+  background-color: #00f;
+}
+button {
+  border: #f90 15px solid;
+}
+table.abc.def {
+  border-color: #f90;
+}

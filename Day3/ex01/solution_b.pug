@@ -1,0 +1,8 @@
+mixin nav(...pairs)
+    nav
+        ul
+            each pair in pairs
+                a(href=pair[0])
+                    li=pair[1]
+
++nav(["https://google.com","Google"],["https://apple.com","Apple"])

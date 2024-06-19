@@ -1,0 +1,43 @@
+.color-1 {
+  background-color: #f00;
+  height: 200px;
+  flex-grow: 1;
+}
+.color-2 {
+  background-color: #fa0;
+  height: 200px;
+  flex-grow: 1;
+}
+.color-3 {
+  background-color: #af0;
+  height: 200px;
+  flex-grow: 1;
+}
+.color-4 {
+  background-color: #0f0;
+  height: 200px;
+  flex-grow: 1;
+}
+.color-5 {
+  background-color: #0fa;
+  height: 200px;
+  flex-grow: 1;
+}
+.color-6 {
+  background-color: #0af;
+  height: 200px;
+  flex-grow: 1;
+}
+.color-7 {
+  background-color: #00f;
+  height: 200px;
+  flex-grow: 1;
+}
+.flexbox {
+  border: solid;
+  border-radius: 800px;
+  overflow: hidden;
+  margin: 150px;
+  display: flex;
+  height: 200px;
+}

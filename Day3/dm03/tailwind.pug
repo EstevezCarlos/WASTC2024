@@ -1,0 +1,17 @@
+mixin std_button(text)
+    button.bg-orange-500.p-2.rounded-full.m-2.text-white.font-bold=text
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        script(src="https://cdn.tailwindcss.com")
+    body
+
+        +std_button('My button 1')
+        +std_button('My button 2')
+        +std_button('My button 3')
+        +std_button('My button 4')
+        +std_button('My button 5')

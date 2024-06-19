@@ -1,0 +1,9 @@
+mixin ni(url, text)
+    a(href=url)
+        li=text
+
+nav
+    ul
+        +ni("https://google.com","Google")
+        +ni("https://apple.com","Apple")
+
