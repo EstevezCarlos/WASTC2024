@@ -1,0 +1,20 @@
+mixin abc(a='JonDog',b=1,c='Husky')
+    tr
+        td=a
+        td=b
+        td=c
+
++abc('Fifi',8,'Beagle')
++abc('Fluffy',3,'Daschund')
++abc('Pitbull')
++abc()
+
+//- mixin tr(...values)
+//-     tr
+//-         each val in values
+//-             td=val
+
+
+//- +tr('Fluffy',3,'Daschund')
+//- +tr('Butcher',10)
+
