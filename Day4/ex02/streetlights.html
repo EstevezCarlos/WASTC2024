@@ -8,6 +8,8 @@
     <script src="//unpkg.com/alpinejs" defer> </script>
   </head>
   <body>
+
+    
     <main x-data="{active: 'red'}">
       <div class="box" x-bind:class="active">
         <div class="red-light"></div>
@@ -18,5 +20,7 @@
       <button x-on:click="active='yellow'">yellow</button>
       <button x-on:click="active='green'">green</button>
     </main>
+
+
   </body>
 </html>

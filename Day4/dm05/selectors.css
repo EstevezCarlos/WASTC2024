@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+}
+
+.my-something {
+    color: blue;
+}
+
+#something-else {
+    color: yellowgreen;
+}
+
+h1.my-something {
+    color: purple;
+}
+
+h2,
+.qwe,
+h4 {
+    color: slateblue;
+}
+
+nav>ul {
+
+}
+
+nav ul {}
+
+nav * {}
+
+.flex-container>:first-child {}
+.flex-item:first-child{}
+
+:last-child{}
+
+:nth-child(2n+1){}
+:nth-child(odd){}
+
+
+:nth-child(2n){}
+:nth-child(even){}
