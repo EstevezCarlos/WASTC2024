@@ -1,0 +1,22 @@
+.own-flexbox {
+    display: flex;
+    height: 300px;
+    border: solid;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.own-flex-items {
+    /* border: solid; */
+    /* margin: 10px; */
+    /* height: 300px; */
+    width: 26%;
+    flex-grow: 1;
+    background-color: #f90;
+}
+
+body {
+    margin: 0;
+    /* background-color: blue; */
+}

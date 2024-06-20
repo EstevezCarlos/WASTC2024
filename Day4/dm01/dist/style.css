@@ -1,0 +1,26 @@
+h1 {
+  color: #f00;
+  font-size: 20px;
+}
+h2 {
+  color: #f00;
+  font-size: 18px;
+}
+button {
+  background-color: #f00;
+}
+th {
+  border-color: #f00;
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-16 {
+  padding: 36px;
+}

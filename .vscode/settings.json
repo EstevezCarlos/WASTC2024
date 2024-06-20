@@ -13,5 +13,9 @@
         ".vscode",
         "LICENSE"
     ],
-    "compile-hero.disable-compile-files-on-did-save-code": false
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "compile-hero.pug-output-directory": "./",
+    "compile-hero.generate-minified-html": false,
+    "compile-hero.generate-minified-css": false,
+    "compile-hero.stylus-output-directory": "./"
 }

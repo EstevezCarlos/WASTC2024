@@ -1,0 +1,25 @@
+mixin qwe(a,b)
+    h2 Hello to my mixin
+    a&attributes(attributes) Sum of #{a} and #{b} is #{a+b}
+        block
+    h2 Bye, my mixin ends here
+
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body 
+        +qwe(1,2).qwe.asd
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur qui eum cupiditate doloribus unde nulla incidunt nam numquam eveniet aspernatur sed suscipit aliquam tenetur harum, quos iure voluptatibus magnam rerum.
+        +qwe(3,4)
+        form
+            input
+            input
+            input
+            input
+            input
+        +qwe(5,6)
+            div.button click me
