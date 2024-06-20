@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="streetlights.css")
+        script(src="//unpkg.com/alpinejs" defer) 
+    body
+        main(x-data="{active: 'red'}")
+            .box(x-bind:class="active")
+                .red-light
+                .yellow-light
+                .green-light
+            button(x-on:click="active='red'") red
+            button(x-on:click="active='yellow'") yellow
+            button(x-on:click="active='green'") green

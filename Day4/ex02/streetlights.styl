@@ -1,0 +1,28 @@
+unit = 10px
+.box
+    display flex
+    flex-flow column
+    gap unit
+    background-color #555
+    width unit * 8
+    height unit * 20
+    justify-content center
+    align-items center
+
+.red-light
+.yellow-light
+.green-light
+    width unit*5
+    height unit*5
+    background-color #222
+    border-radius 50%
+
+.red>.red-light
+    background-color #f00
+
+.yellow>.yellow-light
+    background-color #fc0
+
+
+.green>.green-light
+    background-color #2f0

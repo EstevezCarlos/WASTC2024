@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="streetlights.css">
+    <script src="//unpkg.com/alpinejs" defer> </script>
+  </head>
+  <body>
+    <main x-data="{active: 'red'}">
+      <div class="box" x-bind:class="active">
+        <div class="red-light"></div>
+        <div class="yellow-light"></div>
+        <div class="green-light"></div>
+      </div>
+      <button x-on:click="active='red'">red</button>
+      <button x-on:click="active='yellow'">yellow</button>
+      <button x-on:click="active='green'">green</button>
+    </main>
+  </body>
+</html>

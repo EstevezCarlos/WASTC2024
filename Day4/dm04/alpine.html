@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="alpine.css">
+</head>
+<body>
+    <div x-data="{ open: 'red' }">
+        <div x-bind:class="open">
+            This div is gonna appear and disappear
+        </div>
+        
+        <button @click="open = 'blue'">blue me</button>
+        <button @click="open = 'red'">red me</button>
+    </div>
+</body>
+</html>
