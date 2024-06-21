@@ -1,0 +1,39 @@
+main>h1{
+    /* selects h1 that is direct descendant of h1 */
+}
+
+main h1 {
+    /*  selects every h1 in main */
+}
+
+main>*{
+    /* select imediate descendants of any type */
+}
+
+* {
+    /*  selects every element */
+}
+
+h1+h2 {
+    /* selects imediate sibling */
+}
+
+h1~h2 {
+    /* selects all siblings */
+}
+
+h1:first-child {
+    /* selects first child if its also h1 */
+}
+
+h1 :first-child {
+    /* selects first child that is descendant of h1 */
+}
+
+:last-child {
+    /* select last child */
+}
+
+:nth-child(5n) {
+
+}

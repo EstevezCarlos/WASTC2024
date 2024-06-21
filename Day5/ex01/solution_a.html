@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="//unpkg.com/alpinejs" defer></script>
+  </head>
+
+
+  <body x-data="{mode:'dark'}" x-bind:class="mode">
+    <section>
+      <button x-on:click="mode='light'">light mode</button>
+      <button x-on:click="mode='dark'">dark mode</button>
+    </section>
+  </body>
+
+  
+</html>

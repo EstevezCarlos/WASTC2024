@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="//unpkg.com/alpinejs" defer></script>
+  </head>
+  <body x-data="{dark_mode: true}" x-bind:class="dark_mode ? 'dark' : 'light'">
+    <section>
+      <button x-on:click="dark_mode = !dark_mode ">mode</button>
+    </section>
+  </body>
+</html>
